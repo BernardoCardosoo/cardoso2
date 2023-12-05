@@ -19,14 +19,14 @@ export default function Aside() {
                     <a href="/admin/course">
                         <Button variant="ghost">
                             <Bars4Icon className="h-4 mr-2" />
-                            Listar Curso
+                            Listar Produto
                         </Button>
                     </a>
                     <br />
                     <a href="/admin/course/new">
                         <Button variant="ghost">
                             <NewspaperIcon className="h-4 mr-2" />
-                            Cadastrar Curso
+                            Cadastrar Produto
                         </Button>
                     </a>
                 </div>
@@ -46,14 +46,14 @@ export default function Aside() {
                 <a href="/admin/course">
                     <Button variant="ghost">
                         <Bars4Icon className="h-4 mr-2" />
-                        Listar Curso
+                        Listar Produto
                     </Button>
                 </a>
                 <br />
                 <a href="/admin/course/new">
                     <Button variant="ghost">
                         <NewspaperIcon className="h-4 mr-2" />
-                        Cadastrar Curso
+                        Cadastrar Produto
                     </Button>
                 </a>
             </div>

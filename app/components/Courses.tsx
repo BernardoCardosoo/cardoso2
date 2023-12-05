@@ -2,11 +2,6 @@ import { sql } from "@vercel/postgres";
 
 export default async function Courses() {
     
-    // const courses = [
-    //     { title: "Curso de HTML", url: "/img/html.svg", description: "O curso é realizado por..." },
-    //     { title: "Curso de CSS", url: "/img/css.svg", description: "O curso CSS é realizado por..." },
-    //     { title: "Curso de JS", url: "/img/js.svg", description: "O curso JSS é realizado por..." }
-    // ]
     const { rows } = await sql`SELECT * from courses`;
     console.log(rows)
     return (
@@ -23,7 +18,7 @@ export default async function Courses() {
                             <a href="/curso_html.html">
                                 <img className="hover:scale-105" src={course.url} alt="" />
                                 <div className="text-white text-center">
-                                    <h3>{course.title}L</h3>
+                                    <h3>{course.title}</h3>
                                     <p>{course.description}</p>
                                 </div>
                             </a>
