@@ -5,7 +5,7 @@ export default function NavBar() {
         <div className="p-12 flex justify-between items-center border-b">
             
             
-            <h1>Navegação</h1>
+            <h1 className="text-center text-xl">Navegação</h1>
             
         </div>
 
